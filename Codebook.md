@@ -21,3 +21,12 @@ reauiredField    | Extract only that conlumns which corresponds to the field whi
 out              | Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
         
+Some Transformation
+-------------------
+Transformation   | Description
+-----------------|------------
+rbind            | Horizontally bind the data in one data frame to other data fram
+cbind            | Vertically bind the data in one data frame to other data fram
+names()          | Used to change the name of the variables
+read.table       | Read a file and return the data frame
+write.table      | writes the data frame to the file
